@@ -33,9 +33,17 @@ public class SpaceInvaders {
 		private boolean estDansEspaceJeu(int x, int y) {
 			return ((x >= 0) && (x < longueur)) && ((y >= 0) && (y < hauteur));
 		}
+		
+		public void deplacerVaisseauVersLaDroite() {
+	        if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
+		}
 
 	    @Override
 		public String toString() {
+			return recupererEspaceJeuDansChaineASCII();
+		}
+
+		public String recupererEspaceJeuDansChaineASCII() {
 			StringBuilder espaceDeJeu = new StringBuilder();
 			for (int y = 0; y < hauteur; y++) {
 				for (int x = 0; x < longueur; x++) {
