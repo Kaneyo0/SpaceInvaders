@@ -1,0 +1,39 @@
+= Space Invaders
+:imagesdir: images
+
+== Semaine n°2 : du x au y avril
+
+'''
+
+== Semaine n°1 : du 26 avril au 3 mai
+
+=== Sprints et fonctionnalités réalisées
+
+* Story n°1 : Créer un espace de jeu
+	** Un espace 2D vide est créé
+* Story n°2 : Positionner un nouveau vaisseau dans l'espace de jeu
+	** Un vaisseau est placé à des coordonnées indiqués, mais si elles sont hors des limites, alors une exception est levée
+* Story n°3 : Déplacer le vaisseau vers la droite dans l'espace de jeu
+	** Le vaisseau se déplace d'un pas vers la droite, seulement s'il n'est pas à la limite de la zone
+* Story n°4 : Déplacer le vaisseau vers la gauche dans l'espace de jeu
+	** Le vaisseau se déplace d'un pas vers la gauche, seulement s'il n'est pas à la limite de la zone
+
+=== Fonctionnalités en cours de réalisation
+
+* Aucune
+
+=== Diagramme de classes
+
+image::model.png[]
+
+=== Nuage de mots
+
+image::nuage_de_mot.png[]
+
+=== Difficultés rencontrées
+
+* aucune
+
+=== Remarques diverses
+
+* aucune
