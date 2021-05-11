@@ -1,13 +1,41 @@
 = Space Invaders
 :imagesdir: images
 
-== Semaine n°2 : du x au y avril
+== Semaine n°3 : du 11 au 17 mai
 
-'''
+=== Sprints et fonctionnalités réalisées
+
+
+
+=== Fonctionnalités en cours de réalisation
+
+=== Fonctionnalité n°2 : Dimensionner le vaiseau
+
+=== Diagramme de classes
+
+image::model.png[]
+
+=== Nuage de mots
+
+image::nuage_de_mot.png[]
+
+=== Difficultés rencontrées
+
+* aucune
+
+=== Remarques diverses
+
+* aucune
+
+== Semaine n°2 : du 4 au 10 mai
+
+Aucune avancé n'a été effectué.
 
 == Semaine n°1 : du 26 avril au 3 mai
 
 === Sprints et fonctionnalités réalisées
+
+=== Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de Jeu
 
 * Story n°1 : Créer un espace de jeu
 	** Un espace 2D vide est créé
