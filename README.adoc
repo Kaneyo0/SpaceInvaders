@@ -5,19 +5,23 @@
 
 === Sprints et fonctionnalités réalisées
 
+=== Fonctionnalité n°2 : Dimensionner le vaiseau
 
+* Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée 
 
 === Fonctionnalités en cours de réalisation
 
 === Fonctionnalité n°2 : Dimensionner le vaiseau
 
+* Etape n°2 : Faire en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu 
+
 === Diagramme de classes
 
-image::model.png[]
+image::model2.png[]
 
 === Nuage de mots
 
-image::nuage_de_mot.png[]
+image::nuage_de_mot2.png[]
 
 === Difficultés rencontrées
 
