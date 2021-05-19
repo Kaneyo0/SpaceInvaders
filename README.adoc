@@ -1,6 +1,37 @@
 = Space Invaders
 :imagesdir: images
 
+== Semaine n°4 : du 18 au 24 mai
+
+=== Sprints et fonctionnalités réalisées
+
+=== Fonctionnalité n°2 : Dimensionner le vaiseau
+
+* Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée 
+* Etape n°2 : Faire en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu 
+* Etape n°3 : Déplacer un vaisseau vers la droite en tenant compte de sa dimension
+* Etape n°4 : Déplacer un vaisseau vers la gauche en tenant compte de sa dimension 
+
+=== Fonctionnalités en cours de réalisation
+
+* Spike : Prise en main et intégration d'un moteur graphique
+
+=== Diagramme de classes
+
+image::model3.png[]
+
+=== Nuage de mots
+
+image::nuage_de_mot3.png[]
+
+=== Difficultés rencontrées
+
+* aucune
+
+=== Remarques diverses
+
+* aucune
+
 == Semaine n°3 : du 11 au 17 mai
 
 === Sprints et fonctionnalités réalisées
