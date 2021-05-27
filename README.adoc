@@ -1,6 +1,47 @@
 = Space Invaders
 :imagesdir: images
 
+== Semaine n°5 : du 25 au 28 mai
+
+=== Sprints et fonctionnalités réalisées
+
+=== Spike : Prise en main et intégration d'un moteur graphique
+
+* Récupérer l'API du moteur graphique dans un projet test 
+* Prendre connaissance du code et comprendre le fonctionnement du moteur graphique
+* Intégrer le moteur graphique au jeu Space Invaders 
+* Tester la bonne intégration du moteur graphique
+* Améliorer l'eXperience Utilisateur 
+
+=== Fonctionnalité n°3 : Choisir la vitesse du vaisseau
+
+* Ajouter la vitesse au Vaisseau sans régression de comportement
+* Régler la vitesse du vaisseau 
+* Faire en sorte que le déplacement se fasse correctement pour une vitesse quelconque 
+
+=== Fonctionnalités en cours de réalisation
+
+=== Fonctionnalité n°4: Tirer un missile depuis le vaisseau
+
+* Tirer un missile en TDD  
+
+=== Diagramme de classes
+
+image::model4.png[]
+
+=== Nuage de mots
+
+image::nuage_de_mot4.png[]
+
+=== Difficultés rencontrées
+
+* Quelques difficultés pour le moteur graphique
+* Problème pour tirer un missile
+
+=== Remarques diverses
+
+* aucune
+
 == Semaine n°4 : du 18 au 24 mai
 
 === Sprints et fonctionnalités réalisées
