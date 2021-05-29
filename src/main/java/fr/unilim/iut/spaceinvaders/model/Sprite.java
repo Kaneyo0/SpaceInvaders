@@ -46,11 +46,11 @@ public abstract class Sprite {
 	}
 	
 	public void deplacerHorizontalementVers(Direction direction) {
-		this.origine.changerAbscisse(this.origine.abscisse() + direction.valeur()*vitesse);
+		this.origine.changerAbscisse(this.origine.abscisse() + direction.valeur()*this.vitesse);
 	}
 	
 	public void deplacerVerticalementVers(Direction direction) {
-		this.origine.changerOrdonnee(this.origine.ordonnee() + direction.valeur()*vitesse);
+		this.origine.changerOrdonnee(this.origine.ordonnee() + direction.valeur()*this.vitesse);
 	}
 
 	public void positionner(int x, int y) {

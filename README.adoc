@@ -1,7 +1,7 @@
 = Space Invaders
 :imagesdir: images
 
-== Semaine n°5 : du 25 au 28 mai
+== Semaine n°5 : du 24 au 30 mai
 
 === Sprints et fonctionnalités réalisées
 
@@ -42,7 +42,7 @@ image::nuage_de_mot4.png[]
 
 * aucune
 
-== Semaine n°4 : du 18 au 24 mai
+== Semaine n°4 : du 17 au 23 mai
 
 === Sprints et fonctionnalités réalisées
 
@@ -73,7 +73,7 @@ image::nuage_de_mot3.png[]
 
 * aucune
 
-== Semaine n°3 : du 11 au 17 mai
+== Semaine n°3 : du 10 au 16 mai
 
 === Sprints et fonctionnalités réalisées
 
@@ -103,11 +103,11 @@ image::nuage_de_mot2.png[]
 
 * aucune
 
-== Semaine n°2 : du 4 au 10 mai
+== Semaine n°2 : du 3 au 9 mai
 
 Aucune avancé n'a été effectué.
 
-== Semaine n°1 : du 26 avril au 3 mai
+== Semaine n°1 : du 26 avril au 2 mai
 
 === Sprints et fonctionnalités réalisées
 
