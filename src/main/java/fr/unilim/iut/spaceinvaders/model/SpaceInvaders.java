@@ -8,6 +8,7 @@ import fr.unilim.iut.spaceinvaders.utils.MissileException;
 
 public class SpaceInvaders implements Jeu {
 
+	boolean finJeu = false;
 	int longueur;
 	int hauteur;
 	Vaisseau vaisseau;
@@ -214,6 +215,16 @@ public class SpaceInvaders implements Jeu {
 
 		envahisseur = new Envahisseur(dimension, position, vitesse);
 	}
+	
+	public boolean envahisseurTouche() {
+		if (this.aUnMissile() && new Collision().detecterCollision(recupererMissile(), recupererEnvahisseur())) {
+			this.vaisseau = null;
+			this.envahisseur = null;
+			this.missile = null;
+			this.finJeu = true;
+		}
+		return this.finJeu;
+	}
 
 	@Override
 	public void evoluer(Commande commandeUser) {
@@ -237,11 +248,13 @@ public class SpaceInvaders implements Jeu {
 		if (this.aUnEnvahisseur()) {
 			deplacerContinuellementEnvahisseur();
 		}
+		
+		envahisseurTouche();
 	}
 
 	@Override
 	public boolean etreFini() {
-		return false;
+		return this.finJeu;
 	}
 
 }
