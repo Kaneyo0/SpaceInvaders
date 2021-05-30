@@ -226,6 +226,10 @@ public class SpaceInvaders implements Jeu {
 		return this.finJeu;
 	}
 
+	public void setFinJeu(boolean valeur) {
+		this.finJeu = valeur;
+	}
+
 	@Override
 	public void evoluer(Commande commandeUser) {
 
