@@ -1,6 +1,56 @@
 = Space Invaders
 :imagesdir: images
 
+== Semaine n°6 : du 31 mai au 6 juin
+
+=== Sprints et fonctionnalités réalisées
+
+=== Fonctionnalité n°4: Tirer un missile depuis le vaisseau
+
+* Tirer un missile en TDD  
+* Assigner l'action de tirer à la touche espace
+* Faire déplacer le missile à la verticale de manière autonome
+* Régler la vitesse du missile dans la classe Constante
+
+=== Fonctionnalité n°5: Ajouter un envahisseur dans le jeu
+
+* Initialiser un envahisseur et faire en sorte qu'il soit créé dans le jeu
+* Permettre un déplacement dans les deux directions à l'envahisseur
+* Faire en sorte que l'envahisseur fasse des allers retours de gauche à droite en continu
+* Ajouter l'envahisseur au moteur graphique 
+
+=== Fonctionnalité n°6: Détecter une collision entre deux sprites
+
+* Comparer les positions de deux sprites, venant de toutes les directions
+* Retourner un booléen true quand une collision est détectée
+* Ajouter la méthode detecterCollision() dans l'évolution du jeu
+
+=== Fonctionnalité n°7: Terminer la partie
+
+* Vérifier que l'on détecte une collision entre l'envahisseur et le missile
+* Lorsque c'est le cas, faire en sorte que la méthode etreFini() retourne true
+* Lorsque le jeu est fini, il faut vider l'espace de jeu
+
+=== Fonctionnalités en cours de réalisation
+
+* Aucune
+
+=== Diagramme de classes
+
+image::model5.png[]
+
+=== Nuage de mots
+
+image::nuage_de_mot5.png[]
+
+=== Difficultés rencontrées
+
+* J'ai mis du temps avant de réussir à détecter correctement les collisions
+
+=== Remarques diverses
+
+* aucune
+
 == Semaine n°5 : du 24 au 30 mai
 
 === Sprints et fonctionnalités réalisées
@@ -141,3 +191,11 @@ image::nuage_de_mot.png[]
 === Remarques diverses
 
 * aucune
+
+=== Glossaire
+
+* Vaisseau : Objet principal, il est contrôlé par le joueur et doit se déplacer dans l'espace de jeu
+* Missile : Objet lié au vaisseau, il s'agit d'une arme de ce dernier, le missile doit se déplacer automatiquement vers le haut de l'espace de jeu
+* Sprite : Il s'agit de l'ensemble des objets du jeu, un sprite a une dimension, une position et une vitesse. Un vaisseau et un missile sont des 	sprites
+* Envahisseur : Objet opposé au vaisseau, il est l'ennemi du joueur dont le but est de détruire les envahisseurs à l'aide de missiles. 	L'envahisseur est également un sprite
+* Collision : Il s'agit d'un évènement, qui survient lorsque deux sprites rentrent en contact. Il permet notamment de détecter lorsqu'un missile 	touche un envahisseur
